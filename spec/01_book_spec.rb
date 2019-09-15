@@ -7,7 +7,7 @@ describe 'Book' do
       genres.each_with_index do |genre, i|
         book = Book.new("Book_#{i}")
         book.genre = genre
-        # binding.pry
+        binding.pry
       end
 
       genres.each do |genre|
