@@ -12,4 +12,9 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
+  def genre=(book_genre)
+    @genre = book_genre
+    GENRES << book_genre
+  end
+
 end
